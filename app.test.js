@@ -1,6 +1,6 @@
 // test/app.test.js
 const request = require('supertest');
-const app = require('./app'); // Adjust this path as necessary based on your project structure
+const app = require('./app'); 
 
 describe('GET /mean', () => {
     it('should return the mean of the numbers', async () => {
